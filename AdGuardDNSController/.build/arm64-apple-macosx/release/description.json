@@ -1,0 +1,802 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.xctest/Contents/MacOS/AdGuardDNSControllerPackageTests",
+      "packagePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController",
+      "productName" : "AdGuardDNSControllerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AdGuardDNSController-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/sources",
+      "importPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "AdGuardDNSController",
+      "moduleOutputPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSController.swiftmodule",
+      "objects" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Logger.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernButton.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-O",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "AdGuardDNSController_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSController.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift"
+      ],
+      "tempsPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.AdGuardDNSControllerPackageTests-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/sources",
+      "importPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSControllerTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AdGuardDNSControllerPackageTests",
+      "moduleOutputPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSControllerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-O",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/AdGuardDNSControllerPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSControllerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.AdGuardDNSControllerTests-arm64-apple-macosx15.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/sources",
+      "importPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Tests/DaemonStatusTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AdGuardDNSControllerTests",
+      "moduleOutputPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSControllerTests.swiftmodule",
+      "objects" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/DaemonStatusTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-index-store-path",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/index/store",
+        "-O",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/DaemonStatusTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules/AdGuardDNSControllerTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Tests/DaemonStatusTests.swift"
+      ],
+      "tempsPath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AdGuardDNSController" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AdGuardDNSController",
+      "-whole-module-optimization",
+      "-num-threads",
+      "12",
+      "-c",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift",
+      "-I",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-O",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "AdGuardDNSController_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AdGuardDNSControllerPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AdGuardDNSControllerPackageTests",
+      "-whole-module-optimization",
+      "-num-threads",
+      "12",
+      "-c",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-O",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/AdGuardDNSControllerPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AdGuardDNSControllerTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AdGuardDNSControllerTests",
+      "-whole-module-optimization",
+      "-num-threads",
+      "12",
+      "-c",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Tests/DaemonStatusTests.swift",
+      "-I",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-index-store-path",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/index/store",
+      "-O",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AdGuardDNSController" : [
+
+    ],
+    "AdGuardDNSControllerPackageTests" : [
+      "AdGuardDNSControllerTests",
+      "AdGuardDNSController"
+    ],
+    "AdGuardDNSControllerTests" : [
+      "AdGuardDNSController"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/sources"
+    },
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.product/Objects.LinkFileList"
+    },
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/sources"
+    },
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/DaemonStatusTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Tests/DaemonStatusTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSControllerTests.build/sources"
+    },
+    "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/master.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/runner.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/runner.swiftdeps"
+  }
+}

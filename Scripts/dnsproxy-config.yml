@@ -1,0 +1,9 @@
+# dnsproxy config
+upstream:
+  - https://dns.adguard-dns.com/dns-query
+  - https://dns.adguard-dns.com/dns-query
+
+listen:
+  - 127.0.0.1:53535
+
+port: 53535

@@ -1,0 +1,15 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "f6a374b7ece6bb3cac08ccad5ca6818ce6c9172e199fb81d04288b07f8f3788e"
+build_start_time: [1752340360, 989632000]
+build_end_time: [1752340362, 472151000]
+inputs:
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift": [1752340330, 206821941]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift": [1752339899, 873111019]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift": [1752339381, 349221341]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift": [1752339414, 788099631]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift": [1752339655, 183432808]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift": [1752327936, 450675304]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift": [1752340233, 176505046]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift": [1752327939, 690610261]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift": [1752339815, 710118122]
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift": [1752328010, 376218883]
