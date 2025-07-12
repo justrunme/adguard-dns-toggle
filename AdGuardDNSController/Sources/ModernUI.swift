@@ -24,7 +24,18 @@ class InfoCard: NSView {
     init(title: String, value: String, icon: NSImage?, iconColor: NSColor = .secondaryLabelColor, showSparkline: Bool = false) {
         super.init(frame: .zero)
         self.iconColor = iconColor
-        setupUI(title: title, value: value, icon: icon, showSparkline: showSparkline)
+        let localizedTitle = NSLocalizedString(title, comment: "InfoCard title")
+        let localizedValue = NSLocalizedString(value, comment: "InfoCard value")
+        setupUI(title: localizedTitle, value: localizedValue, icon: icon, showSparkline: showSparkline)
+        switch title {
+        case "DNS серверы": self.toolTip = NSLocalizedString("Текущие DNS-серверы, используемые системой.", comment: "Tooltip: DNS servers")
+        case "Интерфейс": self.toolTip = NSLocalizedString("Активный сетевой интерфейс, через который идёт интернет.", comment: "Tooltip: Interface")
+        case "Время работы": self.toolTip = NSLocalizedString("Сколько времени работает DNS-демон.", comment: "Tooltip: Uptime")
+        case "Память": self.toolTip = NSLocalizedString("Использование памяти процессом dnsproxy.", comment: "Tooltip: Memory")
+        case "Задержка": self.toolTip = NSLocalizedString("Время отклика до серверов AdGuard DNS.", comment: "Tooltip: Latency")
+        case "Версия": self.toolTip = NSLocalizedString("Версия приложения.", comment: "Tooltip: Version")
+        default: break
+        }
     }
     
     required init?(coder: NSCoder) {
@@ -34,7 +45,7 @@ class InfoCard: NSView {
     private func setupUI(title: String, value: String, icon: NSImage?, showSparkline: Bool) {
         wantsLayer = true
         layer?.cornerRadius = 12
-        layer?.backgroundColor = NSColor.windowBackgroundColor.withAlphaComponent(0.7).cgColor
+        layer?.backgroundColor = NSColor.controlBackgroundColor.withAlphaComponent(0.7).cgColor
         layer?.shadowColor = NSColor.black.cgColor
         layer?.shadowOpacity = 0.08
         layer?.shadowRadius = 6
@@ -71,7 +82,21 @@ class InfoCard: NSView {
     }
     
     func updateValue(_ value: String) {
-        valueLabel.stringValue = value
+        let localizedValue = NSLocalizedString(value, comment: "InfoCard value update")
+        if valueLabel.stringValue != localizedValue {
+            NSAnimationContext.runAnimationGroup({ context in
+                context.duration = 0.18
+                valueLabel.animator().alphaValue = 0.0
+            }, completionHandler: {
+                self.valueLabel.stringValue = localizedValue
+                NSAnimationContext.runAnimationGroup({ context in
+                    context.duration = 0.18
+                    self.valueLabel.animator().alphaValue = 1.0
+                })
+            })
+        } else {
+            valueLabel.stringValue = localizedValue
+        }
     }
     
     func updateSparkline(_ values: [Double]) {
@@ -127,7 +152,7 @@ class StatusCard: NSView {
     private func setupUI() {
         wantsLayer = true
         layer?.cornerRadius = 16
-        layer?.backgroundColor = NSColor.windowBackgroundColor.withAlphaComponent(0.9).cgColor
+        layer?.backgroundColor = NSColor.controlBackgroundColor.withAlphaComponent(0.9).cgColor
         layer?.shadowColor = NSColor.black.cgColor
         layer?.shadowOpacity = 0.10
         layer?.shadowRadius = 8
@@ -151,9 +176,9 @@ class StatusCard: NSView {
     
     func updateStatus(isActive: Bool, details: String = "") {
         statusIndicator.setActive(isActive)
-        statusLabel.stringValue = isActive ? "AdGuard DNS активен" : "AdGuard DNS неактивен"
+        statusLabel.stringValue = isActive ? NSLocalizedString("AdGuard DNS активен", comment: "Status active") : NSLocalizedString("AdGuard DNS неактивен", comment: "Status inactive")
         statusLabel.textColor = isActive ? NSColor.systemGreen : NSColor.systemRed
-        detailsLabel.stringValue = details
+        detailsLabel.stringValue = NSLocalizedString(details, comment: "Status details")
     }
 }
 
@@ -254,14 +279,24 @@ class ModernToggleButton: NSButton {
             [NSColor.systemRed.cgColor, NSColor.systemOrange.cgColor] :
             [NSColor.systemGreen.cgColor, NSColor.systemTeal.cgColor]
         gradientLayer?.colors = colors
-        title = isActive ? "Выключить защиту" : "Включить защиту"
+        title = isActive ? NSLocalizedString("Выключить защиту", comment: "Toggle button disable") : NSLocalizedString("Включить защиту", comment: "Toggle button enable")
         contentTintColor = NSColor.white
+        // Scale анимация
+        NSAnimationContext.runAnimationGroup { context in
+            context.duration = 0.18
+            self.animator().layer?.setAffineTransform(CGAffineTransform(scaleX: 1.08, y: 1.08))
+        } completionHandler: {
+            NSAnimationContext.runAnimationGroup { context in
+                context.duration = 0.18
+                self.animator().layer?.setAffineTransform(.identity)
+            }
+        }
     }
     
     func setLoading(_ loading: Bool) {
         isEnabled = !loading
         if loading {
-            title = isActive ? "Выключение..." : "Включение..."
+            title = isActive ? NSLocalizedString("Выключение...", comment: "Toggle button disabling") : NSLocalizedString("Включение...", comment: "Toggle button enabling")
             animatePulse()
         } else {
             layer?.removeAllAnimations()

@@ -14,6 +14,12 @@
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/Config~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/Config.swiftdeps"
   },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swiftdeps"
+  },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift": {
     "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.d",
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.swift.o",
@@ -25,6 +31,12 @@
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swiftdeps"
   },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift": {
     "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/Logger.d",
@@ -43,6 +55,24 @@
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift": {
+    "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.d",
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swiftdeps"
   },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift": {
     "dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/StatusIndicator.d",

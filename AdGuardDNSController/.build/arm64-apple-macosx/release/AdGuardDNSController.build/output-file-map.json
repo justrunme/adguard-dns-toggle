@@ -4,6 +4,11 @@
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AdGuardDNSController.o",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/master.swiftdeps"
   },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AnimatedComponents.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AnimatedComponents.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AnimatedComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AnimatedComponents.swiftdeps"
+  },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift": {
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/AppDelegate~partial.swiftmodule",
@@ -14,6 +19,11 @@
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Config.swiftdeps"
   },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ConnectionMonitor.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ConnectionMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ConnectionMonitor.swiftdeps"
+  },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift": {
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonError~partial.swiftmodule",
@@ -23,6 +33,16 @@
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DaemonStatus.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DiagnosticsWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DiagnosticsWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/DiagnosticsWindowController.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/HotKeyManager.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/HotKeyManager.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/HotKeyManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/HotKeyManager.swiftdeps"
   },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift": {
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/Logger.swift.o",
@@ -39,6 +59,21 @@
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ModernUI.swiftdeps"
   },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/NotificationManager.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/NotificationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/NotificationManager.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/OnboardingWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/OnboardingWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/OnboardingWindowController.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/PreferencesWindowController.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/PreferencesWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/PreferencesWindowController.swiftdeps"
+  },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift": {
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/StatusIndicator~partial.swiftmodule",
@@ -48,6 +83,11 @@
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swift.o",
     "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo~partial.swiftmodule",
     "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/SystemInfo.swiftdeps"
+  },
+  "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ThemeManager.swift": {
+    "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ThemeManager.swift.o",
+    "swiftmodule": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ThemeManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/ThemeManager.swiftdeps"
   },
   "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift": {
     "object": "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/release/AdGuardDNSController.build/main.swift.o",

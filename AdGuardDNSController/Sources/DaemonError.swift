@@ -12,38 +12,38 @@ enum DaemonError: Error, LocalizedError {
     var errorDescription: String? {
         switch self {
         case .pipeNotFound(let path):
-            return "Command pipe not found at: \(path)"
+            return String(format: NSLocalizedString("Command pipe not found at: %@", comment: "Pipe not found error"), path)
         case .daemonNotRunning:
-            return "AdGuard DNS daemon is not running"
+            return NSLocalizedString("AdGuard DNS daemon is not running", comment: "Daemon not running error")
         case .commandFailed(let command):
-            return "Failed to send command: \(command)"
+            return String(format: NSLocalizedString("Failed to send command: %@", comment: "Command failed error"), command)
         case .invalidPID:
-            return "Invalid PID in daemon file"
+            return NSLocalizedString("Invalid PID in daemon file", comment: "Invalid PID error")
         case .processNotFound(let pid):
-            return "Process with PID \(pid) not found"
+            return String(format: NSLocalizedString("Process with PID %d not found", comment: "Process not found error"), pid)
         case .fileAccessDenied(let path):
-            return "Access denied to file: \(path)"
+            return String(format: NSLocalizedString("Access denied to file: %@", comment: "Access denied error"), path)
         case .configurationError(let message):
-            return "Configuration error: \(message)"
+            return String(format: NSLocalizedString("Configuration error: %@", comment: "Configuration error"), message)
         }
     }
     
     var recoverySuggestion: String? {
         switch self {
         case .pipeNotFound:
-            return "Try restarting the daemon or check if it's running"
+            return NSLocalizedString("Try restarting the daemon or check if it's running", comment: "Pipe not found suggestion")
         case .daemonNotRunning:
-            return "Start the daemon using the launch agent"
+            return NSLocalizedString("Start the daemon using the launch agent", comment: "Daemon not running suggestion")
         case .commandFailed:
-            return "Check daemon logs for more information"
+            return NSLocalizedString("Check daemon logs for more information", comment: "Command failed suggestion")
         case .invalidPID:
-            return "Remove the PID file and restart the daemon"
+            return NSLocalizedString("Remove the PID file and restart the daemon", comment: "Invalid PID suggestion")
         case .processNotFound:
-            return "The daemon process may have crashed. Restart it."
+            return NSLocalizedString("The daemon process may have crashed. Restart it.", comment: "Process not found suggestion")
         case .fileAccessDenied:
-            return "Check file permissions and try again"
+            return NSLocalizedString("Check file permissions and try again", comment: "Access denied suggestion")
         case .configurationError:
-            return "Verify configuration files and paths"
+            return NSLocalizedString("Verify configuration files and paths", comment: "Configuration error suggestion")
         }
     }
 } 

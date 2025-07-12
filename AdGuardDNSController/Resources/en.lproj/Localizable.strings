@@ -1,0 +1,118 @@
+"Запускать при входе в систему" = "Launch at login";
+"Язык интерфейса:" = "Interface language:";
+"Настройки" = "Preferences";
+"Настройки..." = "Preferences...";
+"Включить защиту" = "Enable protection";
+"Выключить защиту" = "Disable protection";
+"Показать диагностику" = "Show diagnostics";
+"Открыть главное окно" = "Open main window";
+"Перезапустить демон" = "Restart daemon";
+"Выход" = "Quit";
+"DNS серверы" = "DNS servers";
+"Интерфейс" = "Interface";
+"Время работы" = "Uptime";
+"Память" = "Memory";
+"Задержка" = "Latency";
+"Версия" = "Version";
+"AdGuard DNS неактивен" = "AdGuard DNS is inactive";
+"AdGuard DNS активен" = "AdGuard DNS is active";
+"Защита неактивна" = "Protection is inactive";
+"Защита активна" = "Protection is active";
+"Системный" = "System";
+"Требуется перезапуск" = "Restart required";
+"Для применения языка перезапустите приложение." = "Restart the app to apply the language.";
+"Проверить систему" = "Check system";
+"Проверить состояние системы и зависимостей." = "Check system and dependencies.";
+"Скопировать лог" = "Copy log";
+"Скопировать содержимое лога в буфер обмена." = "Copy log contents to clipboard.";
+"Лог-файл не найден." = "Log file not found.";
+"Если видите ошибку 'file doesn't exist' — проверьте пути к утилитам. Если PID file exists: false — проверьте, запущен ли демон." = "If you see the error 'file doesn't exist', check utility paths. If PID file exists: false, check if the daemon is running."; 
+"Не удалось определить" = "Could not determine";
+"Неизвестно" = "Unknown";
+"Не запущен" = "Not running";
+"Нет соединения" = "No connection";
+"Загрузка..." = "Loading...";
+"Причина: %@" = "Reason: %@";
+"✓ %@ найден, права: %@" = "✓ %@ found, permissions: %@";
+"✓ %@ найден, права: неизвестно" = "✓ %@ found, permissions: unknown";
+"✗ %@ не найден" = "✗ %@ not found";
+"✗ Нет прав на запись в /tmp" = "✗ No write permission to /tmp";
+"✓ DNS 127.0.0.1 прописан для интерфейса Wi-Fi" = "✓ DNS 127.0.0.1 is set for Wi-Fi interface";
+"✗ DNS не задан для Wi-Fi" = "✗ DNS not set for Wi-Fi";
+"✓ DNS для Wi-Fi: %@" = "✓ DNS for Wi-Fi: %@";
+"✗ Не удалось проверить DNS для Wi-Fi" = "✗ Could not check DNS for Wi-Fi";
+"Command pipe not found at: %@" = "Command pipe not found at: %@";
+"AdGuard DNS daemon is not running" = "AdGuard DNS daemon is not running";
+"Failed to send command: %@" = "Failed to send command: %@";
+"Invalid PID in daemon file" = "Invalid PID in daemon file";
+"Process with PID %d not found" = "Process with PID %d not found";
+"Access denied to file: %@" = "Access denied to file: %@";
+"Configuration error: %@" = "Configuration error: %@";
+"Try restarting the daemon or check if it's running" = "Try restarting the daemon or check if it's running";
+"Start the daemon using the launch agent" = "Start the daemon using the launch agent";
+"Check daemon logs for more information" = "Check daemon logs for more information";
+"Remove the PID file and restart the daemon" = "Remove the PID file and restart the daemon";
+"The daemon process may have crashed. Restart it." = "The daemon process may have crashed. Restart it.";
+"Check file permissions and try again" = "Check file permissions and try again";
+"Verify configuration files and paths" = "Verify configuration files and paths";
+"Уведомления" = "Notifications";
+"Показывать уведомления о статусе защиты" = "Show protection status notifications";
+"Мониторинг соединения с AdGuard DNS" = "Connection monitoring with AdGuard DNS";
+"Защита включена" = "Protection enabled";
+"AdGuard DNS защита теперь активна" = "AdGuard DNS protection is now active";
+"Защита выключена" = "Protection disabled";
+"AdGuard DNS защита отключена" = "AdGuard DNS protection is disabled";
+"Ошибка AdGuard DNS" = "AdGuard DNS Error";
+"Демон запущен" = "Daemon started";
+"AdGuard DNS демон успешно запущен" = "AdGuard DNS daemon started successfully";
+"Демон остановлен" = "Daemon stopped";
+"AdGuard DNS демон остановлен" = "AdGuard DNS daemon stopped";
+"Соединение восстановлено" = "Connection restored";
+"Соединение с AdGuard DNS серверами восстановлено" = "Connection to AdGuard DNS servers restored";
+"Соединение потеряно" = "Connection lost";
+"Потеряно соединение с AdGuard DNS серверами" = "Connection to AdGuard DNS servers lost";
+"Не удалось отправить команду daemon'у" = "Failed to send command to daemon";
+"Перезапустить демон" = "Restart daemon";
+"Открыть главное окно" = "Open main window";
+"Показать диагностику" = "Show diagnostics";
+"Выключение..." = "Disabling...";
+"Включение..." = "Enabling...";
+
+// DNS Settings
+"DNS настройки" = "DNS Settings";
+"DNS серверы AdGuard:" = "AdGuard DNS servers:";
+"Default (176.103.130.130)" = "Default (176.103.130.130)";
+"Family (176.103.130.132)" = "Family (176.103.130.132)";
+"Non-filtering (176.103.130.131)" = "Non-filtering (176.103.130.131)";
+"Пользовательские" = "Custom";
+"Порт dnsproxy:" = "dnsproxy port:";
+"Пользовательские DNS (через запятую):" = "Custom DNS servers (comma-separated):";
+"Автоматически переключать при смене сети" = "Auto-switch on network change";
+
+// Sound Notifications
+"Звуковые уведомления" = "Sound notifications";
+
+// Quick Actions
+"Включить защиту" = "Enable protection";
+"Выключить защиту" = "Disable protection";
+"Открыть приложение" = "Open app";
+
+// Ad Blocking Notifications
+"Реклама заблокирована" = "Ad blocked";
+"Заблокирован домен: %@" = "Blocked domain: %@";
+"Заблокировано %d рекламных запросов" = "Blocked %d ad requests";
+"Статистика за день" = "Daily statistics";
+"Заблокировано %d из %d запросов" = "Blocked %d out of %d requests";
+
+// General
+"Общие" = "General";
+
+// Onboarding
+"Добро пожаловать!" = "Welcome!";
+"Защита одним кликом" = "One-click protection";
+"Включайте и выключайте AdGuard DNS защиту мгновенно" = "Enable and disable AdGuard DNS protection instantly";
+"Мониторинг в реальном времени" = "Real-time monitoring";
+"Следите за статусом, задержкой и использованием ресурсов" = "Monitor status, latency and resource usage";
+"Гибкие настройки" = "Flexible settings";
+"Настраивайте DNS серверы, уведомления и автозапуск" = "Configure DNS servers, notifications and autostart";
+"Начать" = "Get Started"; 

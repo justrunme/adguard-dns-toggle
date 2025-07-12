@@ -36,11 +36,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift"
         },
         {
           "kind" : "file",
@@ -53,6 +61,18 @@
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift"
         },
         {
           "kind" : "file",
@@ -81,11 +101,16 @@
       "objects" : [
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/AppDelegate.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/Config.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/Logger.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernButton.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swift.o",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/StatusIndicator.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/SystemInfo.swift.o",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/main.swift.o"
@@ -151,11 +176,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swift.o"
         },
         {
           "kind" : "file",
@@ -168,6 +201,18 @@
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swift.o"
         },
         {
           "kind" : "file",
@@ -190,11 +235,16 @@
       "sources" : [
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift",
+        "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift",
         "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift"
@@ -404,11 +454,16 @@
       "-c",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/AppDelegate.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Config.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/Logger.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernButton.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift",
+      "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/StatusIndicator.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/SystemInfo.swift",
       "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/main.swift",
@@ -645,11 +700,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ConnectionMonitor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonError.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DaemonStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/DiagnosticsWindowController.swift"
         },
         {
           "kind" : "file",
@@ -662,6 +725,18 @@
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/ModernUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/NotificationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/OnboardingWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/Sources/PreferencesWindowController.swift"
         },
         {
           "kind" : "file",
@@ -695,11 +770,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swift.o"
         },
         {
           "kind" : "file",
@@ -712,6 +795,18 @@
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swift.o"
         },
         {
           "kind" : "file",
@@ -759,11 +854,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ConnectionMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonError.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DaemonStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/DiagnosticsWindowController.swift.o"
         },
         {
           "kind" : "file",
@@ -776,6 +879,18 @@
         {
           "kind" : "file",
           "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/ModernUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/NotificationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/OnboardingWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSController.build/PreferencesWindowController.swift.o"
         },
         {
           "kind" : "file",

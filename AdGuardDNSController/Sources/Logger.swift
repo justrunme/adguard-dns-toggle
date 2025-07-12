@@ -25,4 +25,18 @@ extension Logger {
         let fileName = URL(fileURLWithPath: file).lastPathComponent
         self.error("\(fileName):\(line) \(function) - \(message)")
     }
+}
+
+func logToFile(_ message: String) {
+    let logPath = "/tmp/adguard-dns-toggle-app.log"
+    let logMessage = "[\(Date())] \(message)\n"
+    if let handle = FileHandle(forWritingAtPath: logPath) {
+        handle.seekToEndOfFile()
+        if let data = logMessage.data(using: .utf8) {
+            handle.write(data)
+        }
+        handle.closeFile()
+    } else {
+        try? logMessage.write(toFile: logPath, atomically: true, encoding: .utf8)
+    }
 } 
