@@ -115,4 +115,46 @@
 "Следите за статусом, задержкой и использованием ресурсов" = "Monitor status, latency and resource usage";
 "Гибкие настройки" = "Flexible settings";
 "Настраивайте DNS серверы, уведомления и автозапуск" = "Configure DNS servers, notifications and autostart";
-"Начать" = "Get Started"; 
+"Начать" = "Get Started";
+
+// Additional strings from Russian
+"Показать приветствие" = "Show welcome";
+"AdGuard DNS: Включено" = "AdGuard DNS: Enabled";
+"AdGuard DNS: Выключено" = "AdGuard DNS: Disabled";
+"Ошибка" = "Error";
+"AdGuard DNS Toggle — быстрый доступ" = "AdGuard DNS Toggle — quick access";
+"Включить или выключить защиту AdGuard DNS." = "Enable or disable AdGuard DNS protection.";
+"Диагностика" = "Diagnostics";
+"Показать диагностику" = "Show diagnostics";
+"Автозапуск" = "Autostart";
+"Запускать при входе в систему" = "Launch at login";
+"Звуковые уведомления" = "Sound notifications";
+"Воспроизводить звук при уведомлениях" = "Play sound with notifications";
+"Уведомления о блокировке" = "Blocking notifications";
+"Показывать уведомления о заблокированной рекламе" = "Show notifications about blocked ads";
+"DNS сервер AdGuard" = "AdGuard DNS server";
+"Выберите DNS сервер AdGuard" = "Select AdGuard DNS server";
+"Default" = "Default";
+"Family Protection" = "Family Protection";
+"Unfiltered" = "Unfiltered";
+"Порт DNS" = "DNS Port";
+"Порт для локального DNS сервера" = "Port for local DNS server";
+"Пользовательские DNS" = "Custom DNS";
+"Дополнительные DNS серверы (по одному на строку)" = "Additional DNS servers (one per line)";
+"Автопереключение при смене сети" = "Auto-switch on network change";
+"Автоматически включать защиту при подключении к новой сети" = "Automatically enable protection when connecting to a new network";
+"Применить" = "Apply";
+"Отмена" = "Cancel";
+"Сбросить" = "Reset";
+"Настройки сохранены" = "Settings saved";
+"Настройки успешно применены" = "Settings applied successfully";
+"Ошибка сохранения" = "Save error";
+"Не удалось сохранить настройки" = "Failed to save settings";
+
+// Tooltips
+"Текущие DNS-серверы, используемые системой." = "Current DNS servers used by the system.";
+"Активный сетевой интерфейс, через который идёт интернет." = "Active network interface through which internet traffic flows.";
+"Сколько времени работает DNS-демон." = "How long the DNS daemon has been running.";
+"Использование памяти процессом dnsproxy." = "Memory usage by the dnsproxy process.";
+"Время отклика до серверов AdGuard DNS." = "Response time to AdGuard DNS servers.";
+"Версия приложения." = "Application version."; 

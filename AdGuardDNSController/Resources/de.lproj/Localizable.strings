@@ -115,4 +115,46 @@
 "Следите за статусом, задержкой и использованием ресурсов" = "Überwachen Sie Status, Latenz und Ressourcenverbrauch";
 "Гибкие настройки" = "Flexible Einstellungen";
 "Настраивайте DNS серверы, уведомления и автозапуск" = "Konfigurieren Sie DNS-Server, Benachrichtigungen und Autostart";
-"Начать" = "Loslegen"; 
+"Начать" = "Loslegen";
+
+// Additional strings from Russian
+"Показать приветствие" = "Willkommen anzeigen";
+"AdGuard DNS: Включено" = "AdGuard DNS: Aktiviert";
+"AdGuard DNS: Выключено" = "AdGuard DNS: Deaktiviert";
+"Ошибка" = "Fehler";
+"AdGuard DNS Toggle — быстрый доступ" = "AdGuard DNS Toggle — Schnellzugriff";
+"Включить или выключить защиту AdGuard DNS." = "AdGuard DNS-Schutz aktivieren oder deaktivieren.";
+"Диагностика" = "Diagnose";
+"Показать диагностику" = "Diagnose anzeigen";
+"Автозапуск" = "Autostart";
+"Запускать при входе в систему" = "Beim Login starten";
+"Звуковые уведомления" = "Tonbenachrichtigungen";
+"Воспроизводить звук при уведомлениях" = "Ton bei Benachrichtigungen abspielen";
+"Уведомления о блокировке" = "Blockierungsbenachrichtigungen";
+"Показывать уведомления о заблокированной рекламе" = "Benachrichtigungen über blockierte Werbung anzeigen";
+"DNS сервер AdGuard" = "AdGuard DNS-Server";
+"Выберите DNS сервер AdGuard" = "AdGuard DNS-Server auswählen";
+"Default" = "Standard";
+"Family Protection" = "Familien-Schutz";
+"Unfiltered" = "Ungefiltert";
+"Порт DNS" = "DNS-Port";
+"Порт для локального DNS сервера" = "Port für lokalen DNS-Server";
+"Пользовательские DNS" = "Benutzerdefinierte DNS";
+"Дополнительные DNS серверы (по одному на строку)" = "Zusätzliche DNS-Server (einer pro Zeile)";
+"Автопереключение при смене сети" = "Automatisches Umschalten bei Netzwerkwechsel";
+"Автоматически включать защиту при подключении к новой сети" = "Schutz automatisch aktivieren beim Verbinden mit einem neuen Netzwerk";
+"Применить" = "Anwenden";
+"Отмена" = "Abbrechen";
+"Сбросить" = "Zurücksetzen";
+"Настройки сохранены" = "Einstellungen gespeichert";
+"Настройки успешно применены" = "Einstellungen erfolgreich angewendet";
+"Ошибка сохранения" = "Speicherfehler";
+"Не удалось сохранить настройки" = "Einstellungen konnten nicht gespeichert werden";
+
+// Tooltips
+"Текущие DNS-серверы, используемые системой." = "Aktuelle DNS-Server, die vom System verwendet werden.";
+"Активный сетевой интерфейс, через который идёт интернет." = "Aktive Netzwerkschnittstelle, über die Internetverkehr fließt.";
+"Сколько времени работает DNS-демон." = "Wie lange der DNS-Daemon läuft.";
+"Использование памяти процессом dnsproxy." = "Speicherverbrauch durch den dnsproxy-Prozess.";
+"Время отклика до серверов AdGuard DNS." = "Antwortzeit zu AdGuard DNS-Servern.";
+"Версия приложения." = "Anwendungsversion."; 
