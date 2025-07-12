@@ -4,11 +4,17 @@ A modern macOS application for toggling AdGuard DNS protection via dnsproxy with
 
 ## Features
 
-- 🎨 **Modern UI**: Clean, native macOS interface with smooth animations
+- 🎨 **Modern UI**: Clean, native macOS interface with smooth animations and card-based layout
+- 🌐 **Localization**: Full multi-language support (English, German, Russian) and in-app language selector
+- 🛠️ **Diagnostics**: Built-in diagnostics window with logs, system checks, and troubleshooting tips
+- 👋 **Onboarding**: Welcome window with quick start instructions on first launch
 - 🔄 **Real-time Status**: Live monitoring of AdGuard DNS daemon status
 - 🚀 **One-click Toggle**: Simple enable/disable with visual feedback
 - 🛡️ **Secure**: Runs without root privileges for enhanced security
-- 📱 **Dock Integration**: Native macOS app with custom icon
+- 📱 **Dock & Tray Integration**: Native macOS app with custom icon and fully localized tray menu
+- 🔔 **Notifications**: Native macOS notifications for status changes, errors, and connection monitoring
+- ⚙️ **Modern Preferences**: Preferences window with sections, icons, and advanced settings (autostart, language, notifications)
+- 🧩 **Single Instance**: Prevents multiple copies from running (even with LaunchAgent)
 - 🔧 **Configurable**: Environment variables for customization
 
 ## Requirements
@@ -58,6 +64,38 @@ launchctl load ~/Library/LaunchAgents/com.adguard.toggle.daemon.plist
 2. **Check status**: The app shows current AdGuard DNS status
 3. **Toggle protection**: Click the button to enable/disable AdGuard DNS
 4. **Monitor**: Status updates automatically every 3 seconds
+5. **Diagnostics**: Click the diagnostics icon to view logs and run system checks
+6. **Preferences**: Open Preferences to configure autostart, language, notifications, and more
+7. **Onboarding**: On first launch, a welcome window will guide you through the basics
+
+## Localization
+
+- The app supports English, German, and Russian.
+- All UI elements, tooltips, diagnostics, and error messages are fully localized.
+- You can select your preferred language in Preferences (System, English, German, Russian). Changing the language prompts for an app restart.
+- The tray menu and all notifications are also localized.
+
+## Diagnostics & Logging
+
+- Centralized logging to `/tmp/adguard-dns-toggle-app.log` for all key operations (processes, file access, parsing, errors)
+- Diagnostics window: View recent logs, run system checks, and copy logs for support
+- Error reasons are shown directly in the UI cards for transparency
+
+## Preferences & Notifications
+
+- Modern Preferences window with sections and icons
+- Options to enable/disable autostart (LaunchAgent), notifications, and connection monitoring
+- Language selector for instant localization
+- All settings are persistent and user-friendly
+
+## Onboarding
+
+- On first launch, a welcome window introduces the app's main features and usage tips
+- The onboarding window appears only once, but can be reset via app settings (if needed)
+
+## Single Instance Protection
+
+- The app uses both process checks and a file lock to prevent multiple instances, even if started manually and via LaunchAgent simultaneously
 
 ## Configuration
 
@@ -151,7 +189,7 @@ The application uses structured logging with different categories:
 - `daemon`: Daemon communication
 - `network`: Network operations
 
-Logs are available in Console.app under the subsystem `com.adguard.toggle`.
+Logs are available in `/tmp/adguard-dns-toggle-app.log` and in Console.app under the subsystem `com.adguard.toggle`.
 
 ## Troubleshooting
 
@@ -164,6 +202,7 @@ Logs are available in Console.app under the subsystem `com.adguard.toggle`.
    
    # Check logs
    tail -f /tmp/adguard-daemon.log
+   tail -f /tmp/adguard-dns-toggle-app.log
    ```
 
 2. **Permission denied**
@@ -178,6 +217,12 @@ Logs are available in Console.app under the subsystem `com.adguard.toggle`.
    # Install dnsproxy
    brew install adguard/tap/dnsproxy
    ```
+
+4. **App language not changing**
+   - Make sure to restart the app after changing the language in Preferences.
+
+5. **Multiple app instances**
+   - The app prevents this, but if you see two icons, try unloading and reloading the LaunchAgent.
 
 ### Debug Mode
 
@@ -202,7 +247,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues and questions:
 - Check the troubleshooting section
-- Review the logs in Console.app
+- Review the logs in Console.app and `/tmp/adguard-dns-toggle-app.log`
 - Open an issue on GitHub
 
 ---
