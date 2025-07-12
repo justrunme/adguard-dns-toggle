@@ -1,4 +1,0 @@
-module AdGuardDNSControllerPackageTests {
-    header "/Users/justrunme/adguard-dns-toggle/AdGuardDNSController/.build/arm64-apple-macosx/debug/AdGuardDNSControllerPackageTests.build/AdGuardDNSControllerPackageTests-Swift.h"
-    requires objc
-}
